@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-agrimatch-dev-71686-authRole",
+      "UnauthRoleArn": "arn:aws:iam::699475941595:role/amplify-agrimatch-dev-71686-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::699475941595:role/amplify-agrimatch-dev-71686-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-agrimatch-dev-71686-deployment",
+      "UnauthRoleName": "amplify-agrimatch-dev-71686-unauthRole",
+      "StackName": "amplify-agrimatch-dev-71686",
+      "StackId": "arn:aws:cloudformation:eu-west-1:699475941595:stack/amplify-agrimatch-dev-71686/4b2e71b0-0103-11f0-970b-0a340e928305",
+      "AmplifyAppId": "d14ogl020aaxid"
+    },
+    "categories": {
+      "auth": {
+        "agrimatchc860600a": {},
+        "userPoolGroups": {}
+      }
+    }
+  }
+}

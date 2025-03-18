@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+# AgriMatch
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AgriMatch, çiftçiler ve alıcılar arasında doğrudan bağlantı kuran bir mobil uygulamadır. Tarımsal ürünlerin alım-satımını kolaylaştırır ve aracıları ortadan kaldırarak daha adil bir ticaret ortamı sağlar.
 
-## Get started
+## Özellikler
 
-1. Install dependencies
+- 🌾 Tarımsal ürün yönetimi
+- 🤝 Doğrudan alıcı-satıcı bağlantısı
+- 📊 Pazar analizi ve fiyat takibi
+- 🔒 Güvenli ödeme sistemi
+- 📱 Modern ve kullanıcı dostu arayüz
 
-   ```bash
-   npm install
-   ```
+## Teknolojiler
 
-2. Start the app
+- React Native
+- Expo
+- TypeScript
+- AWS Amplify
+- Amazon Cognito
 
-   ```bash
-    npx expo start
-   ```
+## Kurulum
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Repository'yi klonlayın:
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/AgriMatch.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Proje dizinine gidin:
 
-## Learn more
+```bash
+cd AgriMatch
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Bağımlılıkları yükleyin:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+4. Uygulamayı başlatın:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## AWS Amplify Kurulumu
+
+1. Amplify CLI'ı yükleyin:
+
+```bash
+npm install -g @aws-amplify/cli
+```
+
+2. Amplify'ı yapılandırın:
+
+```bash
+amplify configure
+```
+
+3. Projeyi başlatın:
+
+```bash
+amplify init
+```
+
+4. Auth ekleyin:
+
+```bash
+amplify add auth
+```
+
+5. Değişiklikleri uygulayın:
+
+```bash
+amplify push
+```
+
+## Katkıda Bulunma
+
+1. Bu repository'yi fork edin
+2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add some amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## İletişim
+
+Proje Sahibi - [@yourusername](https://github.com/yourusername)
+
+Proje Linki: [https://github.com/yourusername/AgriMatch](https://github.com/yourusername/AgriMatch)
