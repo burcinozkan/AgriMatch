@@ -30,11 +30,11 @@ AgriMatch is a cloud-native mobile marketplace platform that enables farmers to 
 
 ## 🚀 Features
 
-- 🔐 Secure user authentication via AWS Cognito
-- 📦 Product listing for bulk and packaged goods
-- 🧾 Blockchain-based order tracking & transparency
-- 🪄 Real-time messaging (GraphQL) for buyer-seller communication
-- 🖼️ Image upload to AWS S3 via Amplify
+-  Secure user authentication via AWS Cognito
+-  Product listing for bulk and packaged goods
+-  Blockchain-based order tracking & transparency
+-  Real-time messaging (GraphQL) for buyer-seller communication
+-  Image upload to AWS S3 via Amplify
 
 ---
 
