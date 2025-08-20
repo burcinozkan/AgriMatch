@@ -28,7 +28,7 @@ AgriMatch is a cloud-native mobile marketplace platform that enables farmers to 
 
 ---
 
-## 🚀 Features
+## Features
 
 -  Secure user authentication via AWS Cognito
 -  Product listing for bulk and packaged goods
